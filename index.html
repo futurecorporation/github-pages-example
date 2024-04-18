@@ -4,11 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Github Pages Example</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <h1>Github Pages Example</h1>
-  <p>This is an example page</p>
+  <ol>
+    <li>You will need a Github account</li>
+    <li>Join the futurecorporation github organisation</li>
+    <li>
+      Create a new public repo
+      <img src="create-repo.png">
+    </li>
+    <li>
+      Add files to repo
+      <ul>
+        <li>Drag and drop into the browser</li>
+        <li>Edit using github's file editing functionality</li>
+        <li><strong>(Recommended) Use Github desktop to keep files in sync with your local files</strong></li>
+        <li>Use other git tools</li>
+      </ul>
+    </li>
+    <li>
+      In the settings tab, go to the pages section, select branch 'main' and leave the folder as /root, then press save
+      <img src="settings-page.png">
+    </li>
+    <li>Edit your code and 'commit' and 'push' your code (or alternatively use the web editor etc)</li>
+    <li>Upon work being committed, the site will run an update process that takes a few seconds, you can view the status in the Actions tab</li>
+    <li>Set a custom domain using the Custom domain section within the pages settings (Note: you will need access to the domain provider, eg Cloudflare, and will have to enter some DNS records as per the documentation)</li>
+  </ol>
+
+  <hr>
+
+  <h2>Other notes</h2>
+  <p>Any static files inside the repo are also accessible such as images and stylesheets</p>
   <img src="kitten1.jpeg">
-  <p>Some changes</p>
+  <p>For more information see the <a href="https://docs.github.com/en/pages">documentation</a></p>
 </body>
 </html>
